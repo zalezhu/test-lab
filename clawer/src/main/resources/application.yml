@@ -1,0 +1,17 @@
+spring:
+#环境 dev product
+  profiles:
+    active: dev
+  data:
+    mongodb:
+      host: 10.8.0.29
+      port: 27017
+      database: clawer
+#端口
+server:
+  port: 8081
+logging:
+  file: log/clawer-c1.log
+clawer:
+  nodeId: c1
+  weight: 1
